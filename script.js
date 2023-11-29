@@ -60,7 +60,7 @@ function createTodoElement(item) {
     if (item.complete) {
       itemEl.classList.add('complete');
     } else {
-      itemEl.classList.remove(complete);
+      itemEl.classList.remove('complete');
     }
 
     saveToLocalStorage();
